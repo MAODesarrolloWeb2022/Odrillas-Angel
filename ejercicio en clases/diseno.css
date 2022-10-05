@@ -1,0 +1,41 @@
+.contenedor{
+    margin: 0 auto ;
+    width: 900px;
+    border: 1px red solid auto;
+    background-color: rgb(232, 232, 114);
+}
+.titulo{
+    text-align: center;
+    border: 1 px red solid;
+    background-color: rgb(33, 169, 51);
+    width: 100%;
+    height: 35px;
+}
+.izquierda{
+    background-color: orange;
+    border: 1px red solid;
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+.derecha{
+    border: 1px red solid;
+    background-color: orange;
+    width: 250px;
+    float: right;
+    height: 200px;
+}
+.pie{
+    background-color: red;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+.cuadro{
+    float: right;
+    border-radius: 50% ;
+    background: yellow;
+    width: 30px;
+    height: 30px;
+    border: 2px solid transparent;
+}
