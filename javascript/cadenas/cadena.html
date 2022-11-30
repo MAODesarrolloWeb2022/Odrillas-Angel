@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var cadena=prompt("introducir cadena");
+        //var cadena= a,f,c,b;
+        var separar=cadena.split(",");
+        var ordenar=separar.sort();
+        var n;
+        var nueva="";
+        var ordenado="";
+        for(n=0;n<separar.length;n++){
+            nueva += separar[n]+"-";
+        }
+        for(n=0;n<separar.length;n++){
+            ordenado +=ordenar[n]+"-";
+        }
+        document.write(cadena+"<br>"+nueva+"<br>"+ordenado);
+        console.log(cadena+"<br>"+nueva+"<br>"+ordenado);
+    </script>
+</body>
+</html>
