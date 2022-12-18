@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.divclass {
+  background: #3B505F;
+  height: auto;
+  width:350px;
+  border-radius: 15px;
+  padding:20px;
+  font-size:16px;
+  color:#fff;  
+}
+span {
+    background: #F7FB4D;
+    color:#000;
+    font-size:16px;
+    font-weight:700;
+} 
+</style>
+</head>
+
+<body>
+<div class="divclass" id="repdemo"> 
+<p>Source string: <strong>"Sentence 1. Sentence 2. Sentence 3"</strong></p>
+
+<p id="splitted_string"></p> 
+</div>
+
+
+<script type="text/javascript">
+var src_str = "Sentence 1. Sentence 2. Sentence 3";
+var str_spl = src_str.split(".");
+var num;
+var display_split_strings = '<p>After executing the split method: <span> src_str.split(".");</span></p>';
+
+for (num=0; num < str_spl.length; num++){
+    display_split_strings += str_spl[num] + "<BR>";
+    }
+    document.getElementById("splitted_string").innerHTML = display_split_strings;
+
+</script>
+</body>
+</html>
