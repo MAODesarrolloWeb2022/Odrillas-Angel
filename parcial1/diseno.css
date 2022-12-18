@@ -1,0 +1,39 @@
+.contenedor{
+    width: 900px;
+    margin: 0 auto;
+    border: 0px solid;
+}
+.encabezado{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(247, 247, 115);
+}
+.titulo1{
+    text-align: center;
+    color: red;
+}
+.titulo2{
+    color: blue;
+}
+span{
+    font-size: 20px;
+}
+p{
+    font-size: 30px;
+}
+.pregunta4{
+    background-color: green;
+    height: 40px;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px black solid;
+    text-align: center;
+}
+.pie4{
+    text-align: center;
+    background-color: green;
+    height: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px black solid; 
+}
