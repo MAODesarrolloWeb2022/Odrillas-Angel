@@ -1,0 +1,52 @@
+#contenedor{
+    width: 900px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+
+}
+#logo{
+    width: 200px;
+    flex-basis: 100px;
+}
+#cabeza{
+    margin-block: 1px solid;
+    flex-flow: row wrap;
+    flex-basis: 700px;
+    width: 700px;
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+}
+#titulo{
+    width: 700px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+#menu{
+    flex-basis: 100px;
+    border: 1px solid rgb(178, 170, 170);
+    width: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#medio{
+    display: flex;
+    margin:auto;
+    width: 100%;   
+}
+#asignatura{
+    background-color: rgb(202, 194, 194);
+    width: 100px;
+}
+#ima{
+    flex-basis: 200px;
+    display: flex;
+}
+#contenido{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
